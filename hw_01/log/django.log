@@ -1,0 +1,14 @@
+INFO 2024-04-02 01:31:21,586 autoreload 18192 4524 Watching for file changes with StatReloader
+INFO 2024-04-02 01:31:25,722 basehttp 18192 16540 "GET / HTTP/1.1" 200 10629
+INFO 2024-04-02 01:31:28,009 basehttp 18192 16540 "GET / HTTP/1.1" 200 10629
+WARNING 2024-04-02 01:31:39,257 log 18192 16540 Not Found: /about/
+WARNING 2024-04-02 01:31:39,257 basehttp 18192 16540 "GET /about/ HTTP/1.1" 404 2094
+INFO 2024-04-02 01:33:35,194 autoreload 16400 3208 Watching for file changes with StatReloader
+WARNING 2024-04-02 01:33:36,598 log 16400 7944 Not Found: /
+WARNING 2024-04-02 01:33:36,599 basehttp 16400 7944 "GET / HTTP/1.1" 404 2164
+INFO 2024-04-02 01:33:42,329 basehttp 16400 7944 "GET /index HTTP/1.1" 301 0
+INFO 2024-04-02 01:33:42,345 views 16400 956 Index page of first homework accessed
+INFO 2024-04-02 01:33:42,345 basehttp 16400 956 "GET /index/ HTTP/1.1" 200 502
+INFO 2024-04-02 01:33:47,944 basehttp 16400 956 "GET /index/about HTTP/1.1" 301 0
+INFO 2024-04-02 01:33:47,954 views 16400 13888 About page of first homework accessed
+INFO 2024-04-02 01:33:47,954 basehttp 16400 13888 "GET /index/about/ HTTP/1.1" 200 547

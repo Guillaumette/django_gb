@@ -1,0 +1,34 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2168
+"GET /prefix/about/ HTTP/1.1" 200 27
+"GET /prefix/ HTTP/1.1" 200 13
+C:\Users\User\PycharmProjects\Django_GB\mydjango\mydjango\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+C:\Users\User\PycharmProjects\Django_GB\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-04-02 00:54:28,207 autoreload 9908 1316 Watching for file changes with StatReloader
+WARNING 2024-04-02 00:54:30,236 log 9908 15072 Not Found: /
+WARNING 2024-04-02 00:54:30,236 basehttp 9908 15072 "GET / HTTP/1.1" 404 2168
+INFO 2024-04-02 00:54:34,447 views 9908 15072 Index page accessed
+INFO 2024-04-02 00:54:34,448 basehttp 9908 15072 "GET /prefix/ HTTP/1.1" 200 13
+ERROR 2024-04-02 00:54:41,688 views 9908 15072 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-04-02 00:54:41,690 basehttp 9908 15072 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-04-02 00:55:36,469 views 9908 15072 Index page accessed
+INFO 2024-04-02 00:55:36,469 basehttp 9908 15072 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2024-04-02 00:55:37,186 basehttp 9908 15072 "GET /prefix HTTP/1.1" 301 0
+INFO 2024-04-02 00:55:37,197 views 9908 10836 Index page accessed
+INFO 2024-04-02 00:55:37,197 basehttp 9908 10836 "GET /prefix/ HTTP/1.1" 200 13
