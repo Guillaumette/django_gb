@@ -32,3 +32,6 @@ INFO 2024-04-02 00:55:36,469 basehttp 9908 15072 "GET /prefix/ HTTP/1.1" 200 13
 INFO 2024-04-02 00:55:37,186 basehttp 9908 15072 "GET /prefix HTTP/1.1" 301 0
 INFO 2024-04-02 00:55:37,197 views 9908 10836 Index page accessed
 INFO 2024-04-02 00:55:37,197 basehttp 9908 10836 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2024-04-05 13:39:37,582 autoreload 14456 9664 Watching for file changes with StatReloader
+INFO 2024-04-05 13:41:22,186 autoreload 10808 16548 Watching for file changes with StatReloader
+INFO 2024-04-05 13:45:25,977 autoreload 16492 17072 Watching for file changes with StatReloader
