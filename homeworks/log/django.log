@@ -12,3 +12,287 @@ INFO 2024-04-02 01:33:42,345 basehttp 16400 956 "GET /index/ HTTP/1.1" 200 502
 INFO 2024-04-02 01:33:47,944 basehttp 16400 956 "GET /index/about HTTP/1.1" 301 0
 INFO 2024-04-02 01:33:47,954 views 16400 13888 About page of first homework accessed
 INFO 2024-04-02 01:33:47,954 basehttp 16400 13888 "GET /index/about/ HTTP/1.1" 200 547
+INFO 2024-04-16 16:14:47,203 autoreload 8216 17604 Watching for file changes with StatReloader
+INFO 2024-04-16 16:16:31,460 autoreload 8216 17604 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py changed, reloading.
+INFO 2024-04-16 16:16:32,213 autoreload 17496 2268 Watching for file changes with StatReloader
+WARNING 2024-04-16 16:16:47,457 log 17496 18652 Not Found: /
+WARNING 2024-04-16 16:16:47,457 basehttp 17496 18652 "GET / HTTP/1.1" 404 2168
+WARNING 2024-04-16 16:17:14,147 log 17496 18652 Not Found: /client/1/ordered_products
+WARNING 2024-04-16 16:17:14,147 basehttp 17496 18652 "GET /client/1/ordered_products HTTP/1.1" 404 2261
+INFO 2024-04-16 16:18:04,673 basehttp 17496 18652 "GET /index/client/1/ordered_products HTTP/1.1" 301 0
+ERROR 2024-04-16 16:18:04,799 log 17496 14220 Internal Server Error: /index/client/1/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 81, in client_ordered_products
+    return render(request, 'client_ordered_products.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: client_ordered_products.html
+ERROR 2024-04-16 16:18:04,799 basehttp 17496 14220 "GET /index/client/1/ordered_products/ HTTP/1.1" 500 82980
+INFO 2024-04-16 16:21:15,561 autoreload 3056 12164 Watching for file changes with StatReloader
+WARNING 2024-04-16 16:21:17,465 log 3056 3932 Not Found: /
+WARNING 2024-04-16 16:21:17,465 basehttp 3056 3932 "GET / HTTP/1.1" 404 2168
+INFO 2024-04-16 16:21:23,229 basehttp 3056 3932 "GET /index HTTP/1.1" 301 0
+INFO 2024-04-16 16:21:23,258 views 3056 11160 Index page of first homework accessed
+INFO 2024-04-16 16:21:23,259 basehttp 3056 11160 "GET /index/ HTTP/1.1" 200 506
+WARNING 2024-04-16 16:22:10,088 log 3056 11160 Not Found: /about/
+WARNING 2024-04-16 16:22:10,089 basehttp 3056 11160 "GET /about/ HTTP/1.1" 404 2204
+INFO 2024-04-16 16:22:16,118 views 3056 11160 Index page of first homework accessed
+INFO 2024-04-16 16:22:16,119 basehttp 3056 11160 "GET /index/ HTTP/1.1" 200 506
+INFO 2024-04-16 16:22:17,398 basehttp 3056 11160 "GET /index/about HTTP/1.1" 301 0
+INFO 2024-04-16 16:22:17,412 views 3056 17944 About page of first homework accessed
+INFO 2024-04-16 16:22:17,414 basehttp 3056 17944 "GET /index/about/ HTTP/1.1" 200 547
+WARNING 2024-04-16 16:23:10,635 log 3056 17944 Not Found: /index/about/client/1/ordered_products
+WARNING 2024-04-16 16:23:10,636 basehttp 3056 17944 "GET /index/about/client/1/ordered_products HTTP/1.1" 404 2762
+INFO 2024-04-16 16:24:54,921 autoreload 3056 12164 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\urls.py changed, reloading.
+INFO 2024-04-16 16:24:55,634 autoreload 2672 8576 Watching for file changes with StatReloader
+WARNING 2024-04-16 16:27:35,042 log 2672 12108 Not Found: /index/client/1/ordered_products/
+WARNING 2024-04-16 16:27:35,043 basehttp 2672 12108 "GET /index/client/1/ordered_products/ HTTP/1.1" 404 2753
+INFO 2024-04-16 16:33:22,074 autoreload 2672 8576 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\urls.py changed, reloading.
+INFO 2024-04-16 16:33:22,804 autoreload 15088 16712 Watching for file changes with StatReloader
+WARNING 2024-04-16 16:35:13,041 log 15088 4136 Not Found: /client/1/ordered_products/
+WARNING 2024-04-16 16:35:13,041 basehttp 15088 4136 "GET /client/1/ordered_products/ HTTP/1.1" 404 2264
+WARNING 2024-04-16 16:41:01,525 log 15088 7624 Not Found: /client/1/ordered_products/
+WARNING 2024-04-16 16:41:01,525 basehttp 15088 7624 "GET /client/1/ordered_products/ HTTP/1.1" 404 2264
+INFO 2024-04-16 16:41:58,122 autoreload 15088 16712 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\urls.py changed, reloading.
+INFO 2024-04-16 16:41:59,059 autoreload 19284 4624 Watching for file changes with StatReloader
+WARNING 2024-04-16 16:42:05,964 log 19284 9912 Not Found: /index/client/1/ordered_products/
+WARNING 2024-04-16 16:42:05,965 basehttp 19284 9912 "GET /index/client/1/ordered_products/ HTTP/1.1" 404 2753
+ERROR 2024-04-16 16:42:17,246 log 19284 9912 Internal Server Error: /index/index/client/1/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 81, in client_ordered_products
+    return render(request, 'client_ordered_products.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: client_ordered_products.html
+ERROR 2024-04-16 16:42:17,246 basehttp 19284 9912 "GET /index/index/client/1/ordered_products/ HTTP/1.1" 500 83052
+INFO 2024-04-16 16:44:55,448 autoreload 19284 4624 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\urls.py changed, reloading.
+INFO 2024-04-16 16:44:56,305 autoreload 8828 4780 Watching for file changes with StatReloader
+INFO 2024-04-16 16:45:11,368 autoreload 17304 5948 Watching for file changes with StatReloader
+WARNING 2024-04-16 16:45:12,718 log 17304 11904 Not Found: /
+WARNING 2024-04-16 16:45:12,718 basehttp 17304 11904 "GET / HTTP/1.1" 404 2168
+INFO 2024-04-16 16:45:21,311 views 17304 11904 Index page of first homework accessed
+INFO 2024-04-16 16:45:21,312 basehttp 17304 11904 "GET /index/ HTTP/1.1" 200 506
+INFO 2024-04-16 16:45:25,976 views 17304 11904 About page of first homework accessed
+INFO 2024-04-16 16:45:25,976 basehttp 17304 11904 "GET /index/about/ HTTP/1.1" 200 547
+INFO 2024-04-16 16:45:37,992 basehttp 17304 11904 "GET /index/client/2/ordered_products HTTP/1.1" 301 0
+ERROR 2024-04-16 16:45:38,085 log 17304 12740 Internal Server Error: /index/client/2/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 81, in client_ordered_products
+    return render(request, 'client_ordered_products.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: client_ordered_products.html
+ERROR 2024-04-16 16:45:38,085 basehttp 17304 12740 "GET /index/client/2/ordered_products/ HTTP/1.1" 500 88999
+ERROR 2024-04-16 16:47:21,972 log 17304 12740 Internal Server Error: /index/client/1/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 81, in client_ordered_products
+    return render(request, 'client_ordered_products.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: client_ordered_products.html
+ERROR 2024-04-16 16:47:21,974 basehttp 17304 12740 "GET /index/client/1/ordered_products/ HTTP/1.1" 500 82980
+WARNING 2024-04-16 16:47:28,377 log 17304 12740 Not Found: /client/1/ordered_products/
+WARNING 2024-04-16 16:47:28,377 basehttp 17304 12740 "GET /client/1/ordered_products/ HTTP/1.1" 404 2264
+ERROR 2024-04-16 16:50:03,166 log 17304 12740 Internal Server Error: /index/client/1/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 81, in client_ordered_products
+    return render(request, 'client_ordered_products.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: client_ordered_products.html
+ERROR 2024-04-16 16:50:03,166 basehttp 17304 12740 "GET /index/client/1/ordered_products/ HTTP/1.1" 500 82980
+ERROR 2024-04-16 16:52:43,435 log 17304 12740 Internal Server Error: /index/client/1/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 81, in client_ordered_products
+    return render(request, 'client_ordered_products.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: client_ordered_products.html
+ERROR 2024-04-16 16:52:43,435 basehttp 17304 12740 "GET /index/client/1/ordered_products/ HTTP/1.1" 500 83117
+ERROR 2024-04-16 16:52:44,826 log 17304 12740 Internal Server Error: /index/client/1/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 81, in client_ordered_products
+    return render(request, 'client_ordered_products.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: client_ordered_products.html
+ERROR 2024-04-16 16:52:44,826 basehttp 17304 12740 "GET /index/client/1/ordered_products/ HTTP/1.1" 500 83117
+WARNING 2024-04-16 16:52:49,450 log 17304 12740 Not Found: /client/1/ordered_products/
+WARNING 2024-04-16 16:52:49,450 basehttp 17304 12740 "GET /client/1/ordered_products/ HTTP/1.1" 404 2264
+INFO 2024-04-16 16:53:19,752 autoreload 18656 14100 Watching for file changes with StatReloader
+WARNING 2024-04-16 16:53:23,139 log 18656 16716 Not Found: /
+WARNING 2024-04-16 16:53:23,140 basehttp 18656 16716 "GET / HTTP/1.1" 404 2168
+INFO 2024-04-16 16:53:27,225 views 18656 16716 About page of first homework accessed
+INFO 2024-04-16 16:53:27,225 basehttp 18656 16716 "GET /index/about/ HTTP/1.1" 200 547
+ERROR 2024-04-16 16:53:35,477 log 18656 16716 Internal Server Error: /index/client/1/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 81, in client_ordered_products
+    return render(request, 'client_ordered_products.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: client_ordered_products.html
+ERROR 2024-04-16 16:53:35,480 basehttp 18656 16716 "GET /index/client/1/ordered_products/ HTTP/1.1" 500 82980
+INFO 2024-04-16 16:55:28,730 autoreload 18656 14100 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-16 16:55:30,453 autoreload 4252 7488 Watching for file changes with StatReloader
+INFO 2024-04-16 16:55:56,108 autoreload 4252 7488 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-16 17:00:04,985 autoreload 10228 10920 Watching for file changes with StatReloader
+INFO 2024-04-16 17:00:47,370 autoreload 10228 10920 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\urls.py changed, reloading.
+INFO 2024-04-16 17:00:48,126 autoreload 4880 13776 Watching for file changes with StatReloader
+INFO 2024-04-16 17:01:33,684 autoreload 4880 13776 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\urls.py changed, reloading.
+INFO 2024-04-16 17:01:34,396 autoreload 12256 19264 Watching for file changes with StatReloader
+INFO 2024-04-16 17:01:36,877 views 12256 11136 Index page of first homework accessed
+INFO 2024-04-16 17:01:36,879 basehttp 12256 11136 "GET / HTTP/1.1" 200 506
+WARNING 2024-04-16 17:01:47,491 log 12256 11136 Not Found: /client/1/ordered_products
+WARNING 2024-04-16 17:01:47,492 basehttp 12256 11136 "GET /client/1/ordered_products HTTP/1.1" 404 2361
+ERROR 2024-04-16 17:01:54,761 log 12256 11136 Internal Server Error: /index/client/1/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 81, in client_ordered_products
+    return render(request, 'client_ordered_products.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: client_ordered_products.html
+ERROR 2024-04-16 17:01:54,764 basehttp 12256 11136 "GET /index/client/1/ordered_products/ HTTP/1.1" 500 83254
+ERROR 2024-04-16 17:01:55,004 log 12256 11136 Internal Server Error: /index/client/1/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 81, in client_ordered_products
+    return render(request, 'client_ordered_products.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: client_ordered_products.html
+ERROR 2024-04-16 17:01:55,007 basehttp 12256 11136 "GET /index/client/1/ordered_products/ HTTP/1.1" 500 82980
+INFO 2024-04-16 17:04:43,828 autoreload 12256 19264 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py changed, reloading.
+INFO 2024-04-16 17:04:44,563 autoreload 17252 1540 Watching for file changes with StatReloader
+INFO 2024-04-16 17:04:46,453 basehttp 17252 19196 "GET /index/client/1/ordered_products/ HTTP/1.1" 200 664
+INFO 2024-04-16 17:04:51,344 basehttp 17252 19196 "GET /index/client/1/ordered_products/ HTTP/1.1" 200 664
+INFO 2024-04-16 17:04:53,185 basehttp 17252 19196 "GET /index/client/1/ordered_products/ HTTP/1.1" 200 664
+INFO 2024-04-16 17:04:57,926 basehttp 17252 19196 "GET /index/client/2/ordered_products/ HTTP/1.1" 200 1352

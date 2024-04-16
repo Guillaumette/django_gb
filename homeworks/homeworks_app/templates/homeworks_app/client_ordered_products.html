@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Заказанные клиентом товары{% endblock %}
+
+{% block content %}
+    <h1>Заказанные товары клиентом по имени {{ client.name }}</h1>
+    <a href="{% url 'client_ordered_products' client_id=client.id %}">Просмотреть заказанные товары</a>
+
+    <h2>За последнюю неделю</h2>
+    <ul>
+        {% for product in products_last_week %}
+            <li>{{ product.name }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>За последний месяц</h2>
+    <ul>
+        {% for product in products_last_month %}
+            <li>{{ product.name }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>За последний год</h2>
+    <ul>
+        {% for product in products_last_year %}
+            <li>{{ product.name }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

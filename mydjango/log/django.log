@@ -35,3 +35,76 @@ INFO 2024-04-02 00:55:37,197 basehttp 9908 10836 "GET /prefix/ HTTP/1.1" 200 13
 INFO 2024-04-05 13:39:37,582 autoreload 14456 9664 Watching for file changes with StatReloader
 INFO 2024-04-05 13:41:22,186 autoreload 10808 16548 Watching for file changes with StatReloader
 INFO 2024-04-05 13:45:25,977 autoreload 16492 17072 Watching for file changes with StatReloader
+INFO 2024-04-16 12:24:35,059 autoreload 19212 4136 Watching for file changes with StatReloader
+WARNING 2024-04-16 12:24:38,346 log 19212 10744 Not Found: /
+WARNING 2024-04-16 12:24:38,347 basehttp 19212 10744 "GET / HTTP/1.1" 404 2168
+WARNING 2024-04-16 12:24:38,456 log 19212 10744 Not Found: /favicon.ico
+WARNING 2024-04-16 12:24:38,456 basehttp 19212 10744 "GET /favicon.ico HTTP/1.1" 404 2219
+WARNING 2024-04-16 12:24:59,291 log 19212 10744 Not Found: /prefix/
+WARNING 2024-04-16 12:24:59,292 basehttp 19212 10744 "GET /prefix/ HTTP/1.1" 404 2450
+INFO 2024-04-16 12:25:08,033 basehttp 19212 10744 "GET /prefix/hello HTTP/1.1" 301 0
+INFO 2024-04-16 12:25:08,042 basehttp 19212 2372 "GET /prefix/hello/ HTTP/1.1" 200 26
+INFO 2024-04-16 12:25:13,646 basehttp 19212 2372 "GET /prefix/hello2/ HTTP/1.1" 200 23
+INFO 2024-04-16 12:28:41,972 autoreload 19212 4136 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-04-16 12:28:43,098 autoreload 2508 2480 Watching for file changes with StatReloader
+INFO 2024-04-16 13:44:38,527 autoreload 7672 16620 Watching for file changes with StatReloader
+WARNING 2024-04-16 13:44:41,454 log 7672 9168 Not Found: /
+WARNING 2024-04-16 13:44:41,455 basehttp 7672 9168 "GET / HTTP/1.1" 404 2168
+WARNING 2024-04-16 13:44:53,647 log 7672 9168 Not Found: /prefix/2022
+WARNING 2024-04-16 13:44:53,647 basehttp 7672 9168 "GET /prefix/2022 HTTP/1.1" 404 3104
+INFO 2024-04-16 13:45:02,763 basehttp 7672 9168 "GET /prefix/posts/2022 HTTP/1.1" 301 0
+INFO 2024-04-16 13:45:02,771 basehttp 7672 8376 "GET /prefix/posts/2022/ HTTP/1.1" 200 19
+INFO 2024-04-16 13:45:09,779 basehttp 7672 8376 "GET /prefix/posts/2022/6 HTTP/1.1" 301 0
+INFO 2024-04-16 13:45:09,787 basehttp 7672 7096 "GET /prefix/posts/2022/6/ HTTP/1.1" 200 21
+INFO 2024-04-16 13:45:25,647 basehttp 7672 7096 "GET /prefix/posts/2022/6/python HTTP/1.1" 301 0
+INFO 2024-04-16 13:45:25,647 basehttp 7672 17232 "GET /prefix/posts/2022/6/python/ HTTP/1.1" 200 359
+INFO 2024-04-16 13:53:06,891 autoreload 7672 16620 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-16 13:53:07,822 autoreload 3324 15600 Watching for file changes with StatReloader
+INFO 2024-04-16 13:54:09,114 autoreload 3324 15600 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-16 13:54:11,914 autoreload 9576 9508 Watching for file changes with StatReloader
+INFO 2024-04-16 13:54:31,556 autoreload 9576 9508 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-16 13:54:32,291 autoreload 2296 2156 Watching for file changes with StatReloader
+INFO 2024-04-16 13:57:16,487 autoreload 2296 2156 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-04-16 13:57:17,318 autoreload 4832 10988 Watching for file changes with StatReloader
+INFO 2024-04-16 13:57:57,083 basehttp 4832 13860 "GET /prefix HTTP/1.1" 301 0
+INFO 2024-04-16 13:57:57,108 basehttp 4832 13820 "GET /prefix/ HTTP/1.1" 200 176
+INFO 2024-04-16 14:06:53,584 autoreload 4832 10988 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-16 14:06:54,407 autoreload 9976 17364 Watching for file changes with StatReloader
+INFO 2024-04-16 14:08:37,738 autoreload 9976 17364 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-16 14:08:38,400 autoreload 15760 17616 Watching for file changes with StatReloader
+INFO 2024-04-16 14:09:32,507 autoreload 15760 17616 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-04-16 14:09:33,367 autoreload 13936 11716 Watching for file changes with StatReloader
+INFO 2024-04-16 14:09:56,684 basehttp 13936 19312 "GET /prefix/if HTTP/1.1" 301 0
+INFO 2024-04-16 14:09:56,709 basehttp 13936 19296 "GET /prefix/if/ HTTP/1.1" 200 326
+INFO 2024-04-16 14:26:43,170 autoreload 13936 11716 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-16 14:26:44,052 autoreload 13696 13092 Watching for file changes with StatReloader
+INFO 2024-04-16 14:27:00,423 autoreload 13696 13092 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-16 14:27:01,131 autoreload 1796 10900 Watching for file changes with StatReloader
+INFO 2024-04-16 14:28:46,021 autoreload 1796 10900 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-04-16 14:28:48,544 autoreload 17188 10928 Watching for file changes with StatReloader
+INFO 2024-04-16 14:29:01,532 autoreload 17188 10928 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-04-16 14:29:02,219 autoreload 1936 13860 Watching for file changes with StatReloader
+INFO 2024-04-16 14:29:22,570 autoreload 1936 13860 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-04-16 14:29:23,249 autoreload 10096 5092 Watching for file changes with StatReloader
+INFO 2024-04-16 14:29:25,524 basehttp 10096 12816 "GET /prefix/for/ HTTP/1.1" 200 819
+INFO 2024-04-16 14:43:16,969 autoreload 10096 5092 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-16 14:43:17,931 autoreload 6740 11712 Watching for file changes with StatReloader
+INFO 2024-04-16 14:44:39,873 autoreload 6740 11712 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-04-16 14:44:40,677 autoreload 10304 17300 Watching for file changes with StatReloader
+WARNING 2024-04-16 14:45:02,153 log 10304 17144 Not Found: /index
+WARNING 2024-04-16 14:45:02,154 basehttp 10304 17144 "GET /index HTTP/1.1" 404 2201
+INFO 2024-04-16 14:45:13,143 basehttp 10304 17144 "GET /prefix/ HTTP/1.1" 200 176
+INFO 2024-04-16 14:45:14,177 basehttp 10304 17144 "GET /prefix/index HTTP/1.1" 301 0
+INFO 2024-04-16 14:45:14,201 basehttp 10304 5348 "GET /prefix/index/ HTTP/1.1" 200 245
+INFO 2024-04-16 14:45:23,593 basehttp 10304 5348 "GET /prefix/about/ HTTP/1.1" 200 257
+INFO 2024-04-16 14:46:51,985 autoreload 10304 17300 C:\Users\User\PycharmProjects\Django_GB\mydjango\mydjango\settings.py changed, reloading.
+INFO 2024-04-16 14:46:53,068 autoreload 7988 18304 Watching for file changes with StatReloader
+INFO 2024-04-16 15:01:03,316 basehttp 7988 7288 "GET /prefix/index/ HTTP/1.1" 200 304
+INFO 2024-04-16 15:02:45,035 autoreload 7988 18304 C:\Users\User\PycharmProjects\Django_GB\mydjango\mydjango\urls.py changed, reloading.
+INFO 2024-04-16 15:02:46,448 autoreload 1948 7668 Watching for file changes with StatReloader
+INFO 2024-04-16 15:02:51,821 basehttp 1948 3308 "GET / HTTP/1.1" 200 304
+INFO 2024-04-16 15:54:24,297 autoreload 1764 16336 Watching for file changes with StatReloader
+INFO 2024-04-16 15:54:29,664 basehttp 1764 13144 "GET /prefix/author/5 HTTP/1.1" 301 0
+INFO 2024-04-16 15:54:29,696 basehttp 1764 16888 "GET /prefix/author/5/ HTTP/1.1" 200 957
+INFO 2024-04-16 15:54:30,402 basehttp 1764 16888 "GET /prefix/author/5/ HTTP/1.1" 200 957
+INFO 2024-04-16 15:56:01,388 basehttp 1764 16888 "GET /prefix/post/50/ HTTP/1.1" 200 274
