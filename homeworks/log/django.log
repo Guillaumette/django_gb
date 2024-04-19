@@ -296,3 +296,11 @@ INFO 2024-04-16 17:04:46,453 basehttp 17252 19196 "GET /index/client/1/ordered_p
 INFO 2024-04-16 17:04:51,344 basehttp 17252 19196 "GET /index/client/1/ordered_products/ HTTP/1.1" 200 664
 INFO 2024-04-16 17:04:53,185 basehttp 17252 19196 "GET /index/client/1/ordered_products/ HTTP/1.1" 200 664
 INFO 2024-04-16 17:04:57,926 basehttp 17252 19196 "GET /index/client/2/ordered_products/ HTTP/1.1" 200 1352
+INFO 2024-04-19 19:34:56,347 autoreload 13916 11328 Watching for file changes with StatReloader
+INFO 2024-04-19 19:34:59,426 views 13916 5036 Index page of first homework accessed
+INFO 2024-04-19 19:34:59,426 basehttp 13916 5036 "GET / HTTP/1.1" 200 506
+INFO 2024-04-19 19:35:04,511 basehttp 13916 5036 "GET /index HTTP/1.1" 301 0
+INFO 2024-04-19 19:35:04,521 views 13916 5940 Index page of first homework accessed
+INFO 2024-04-19 19:35:04,522 basehttp 13916 5940 "GET /index/ HTTP/1.1" 200 506
+INFO 2024-04-19 19:35:06,935 basehttp 13916 5940 "GET /index/upload HTTP/1.1" 301 0
+INFO 2024-04-19 19:35:06,951 basehttp 13916 10884 "GET /index/upload/ HTTP/1.1" 200 635

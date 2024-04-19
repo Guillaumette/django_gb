@@ -1,9 +1,12 @@
 import logging
 
+from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.utils import timezone
 from datetime import timedelta
+
+from .forms import ImageForm
 from .models import Client, Product, Order
 
 
@@ -91,3 +94,15 @@ def get_unique_products(orders):
     for order in orders:
         products.update(order.products.all())
     return products
+
+
+def upload_image(request):
+    if request.method == 'POST':
+        form = ImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            fs.save(image.name, image)
+    else:
+        form = ImageForm()
+    return render(request, 'homeworks_app/upload_image.html', {'form': form})

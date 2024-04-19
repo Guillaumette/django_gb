@@ -108,3 +108,153 @@ INFO 2024-04-16 15:54:29,664 basehttp 1764 13144 "GET /prefix/author/5 HTTP/1.1"
 INFO 2024-04-16 15:54:29,696 basehttp 1764 16888 "GET /prefix/author/5/ HTTP/1.1" 200 957
 INFO 2024-04-16 15:54:30,402 basehttp 1764 16888 "GET /prefix/author/5/ HTTP/1.1" 200 957
 INFO 2024-04-16 15:56:01,388 basehttp 1764 16888 "GET /prefix/post/50/ HTTP/1.1" 200 274
+INFO 2024-04-19 14:06:59,056 autoreload 13336 2712 Watching for file changes with StatReloader
+INFO 2024-04-19 14:07:07,757 basehttp 13336 1820 "GET / HTTP/1.1" 200 304
+WARNING 2024-04-19 14:07:07,932 log 13336 1820 Not Found: /favicon.ico
+WARNING 2024-04-19 14:07:07,932 basehttp 13336 1820 "GET /favicon.ico HTTP/1.1" 404 2319
+WARNING 2024-04-19 14:07:16,984 log 13336 1820 Not Found: /user/add
+WARNING 2024-04-19 14:07:16,984 basehttp 13336 1820 "GET /user/add HTTP/1.1" 404 2310
+INFO 2024-04-19 14:07:41,129 basehttp 13336 1820 "GET /prefix/user/add HTTP/1.1" 301 0
+ERROR 2024-04-19 14:07:41,189 log 13336 12280 Internal Server Error: /prefix/user/add/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-19 14:07:41,189 basehttp 13336 12280 "GET /prefix/user/add/ HTTP/1.1" 500 65143
+WARNING 2024-04-19 14:08:02,562 log 13336 12280 Not Found: /hello
+WARNING 2024-04-19 14:08:02,562 basehttp 13336 12280 "GET /hello HTTP/1.1" 404 2301
+WARNING 2024-04-19 14:08:12,123 log 13336 12280 Not Found: /hello/
+WARNING 2024-04-19 14:08:12,125 basehttp 13336 12280 "GET /hello/ HTTP/1.1" 404 2304
+INFO 2024-04-19 14:08:17,397 basehttp 13336 12280 "GET /prefix/about/ HTTP/1.1" 200 257
+ERROR 2024-04-19 14:08:25,433 log 13336 12280 Internal Server Error: /prefix/user/add/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-19 14:08:25,433 basehttp 13336 12280 "GET /prefix/user/add/ HTTP/1.1" 500 65143
+WARNING 2024-04-19 14:08:47,038 log 13336 12280 Not Found: /prefix/user/
+WARNING 2024-04-19 14:08:47,038 basehttp 13336 12280 "GET /prefix/user/ HTTP/1.1" 404 4655
+ERROR 2024-04-19 14:09:03,770 log 13336 12280 Internal Server Error: /prefix/user/add/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-19 14:09:03,778 basehttp 13336 12280 "GET /prefix/user/add/ HTTP/1.1" 500 65143
+INFO 2024-04-19 14:11:24,226 autoreload 13336 2712 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\urls.py changed, reloading.
+INFO 2024-04-19 14:11:24,876 autoreload 17428 19020 Watching for file changes with StatReloader
+ERROR 2024-04-19 14:11:28,032 log 17428 19292 Internal Server Error: /prefix/user/add/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-19 14:11:28,032 basehttp 17428 19292 "GET /prefix/user/add/ HTTP/1.1" 500 65280
+INFO 2024-04-19 14:12:39,955 autoreload 17428 19020 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-19 14:12:41,007 autoreload 2964 15424 Watching for file changes with StatReloader
+ERROR 2024-04-19 14:12:41,771 log 2964 12308 Internal Server Error: /prefix/user/add/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py", line 111, in user_form
+    return render(request, 'myapp/user_form.html', {'form': form})
+                                                            ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-04-19 14:12:41,771 basehttp 2964 12308 "GET /prefix/user/add/ HTTP/1.1" 500 63725
+ERROR 2024-04-19 14:12:46,715 log 2964 12308 Internal Server Error: /prefix/user/add/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py", line 111, in user_form
+    return render(request, 'myapp/user_form.html', {'form': form})
+                                                            ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-04-19 14:12:46,717 basehttp 2964 12308 "GET /prefix/user/add/ HTTP/1.1" 500 63725
+INFO 2024-04-19 14:13:20,385 autoreload 2964 15424 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-19 14:13:21,081 autoreload 18304 11580 Watching for file changes with StatReloader
+INFO 2024-04-19 14:13:21,892 basehttp 18304 13400 "GET /prefix/user/add/ HTTP/1.1" 200 606
+INFO 2024-04-19 14:19:12,350 basehttp 18304 12444 "GET /prefix/user/add/ HTTP/1.1" 200 824
+INFO 2024-04-19 14:20:28,352 views 18304 12444 Получили name='имя', email='mail@mail.ru', age=12.
+INFO 2024-04-19 14:20:28,354 basehttp 18304 12444 "POST /prefix/user/add/ HTTP/1.1" 200 871
+INFO 2024-04-19 14:26:30,997 autoreload 18304 11580 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\forms.py changed, reloading.
+INFO 2024-04-19 14:26:32,015 autoreload 7680 8904 Watching for file changes with StatReloader
+INFO 2024-04-19 14:30:29,028 autoreload 7680 8904 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-19 14:30:29,724 autoreload 14272 9512 Watching for file changes with StatReloader
+INFO 2024-04-19 14:30:44,928 autoreload 14272 9512 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-19 14:30:45,758 autoreload 432 18048 Watching for file changes with StatReloader
+INFO 2024-04-19 17:37:07,497 autoreload 3156 3160 Watching for file changes with StatReloader
+INFO 2024-04-19 17:37:13,719 basehttp 3156 13396 "GET / HTTP/1.1" 200 304
+WARNING 2024-04-19 17:37:19,869 log 3156 13396 Not Found: /forms
+WARNING 2024-04-19 17:37:19,869 basehttp 3156 13396 "GET /forms HTTP/1.1" 404 2301
+INFO 2024-04-19 17:37:26,016 basehttp 3156 13396 "GET /prefix/forms HTTP/1.1" 301 0
+INFO 2024-04-19 17:37:26,046 basehttp 3156 11540 "GET /prefix/forms/ HTTP/1.1" 200 1511
+INFO 2024-04-19 17:38:42,227 views 3156 11540 Получили form.cleaned_data={'name': 'Анна', 'email': 'anna_kniazeva@bk.ru', 'age': 29, 'height': 158.1, 'is_active': True, 'birthdate': datetime.date(1994, 9, 10), 'gender': 'F'}.
+INFO 2024-04-19 17:38:42,234 basehttp 3156 11540 "POST /prefix/forms/ HTTP/1.1" 200 1598
+INFO 2024-04-19 17:46:12,435 autoreload 3156 3160 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\forms.py changed, reloading.
+INFO 2024-04-19 17:46:13,138 autoreload 10140 4208 Watching for file changes with StatReloader
+INFO 2024-04-19 17:48:02,940 autoreload 10140 4208 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\forms.py changed, reloading.
+INFO 2024-04-19 17:48:03,658 autoreload 10536 15240 Watching for file changes with StatReloader
+INFO 2024-04-19 17:49:30,469 autoreload 10536 15240 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\forms.py changed, reloading.
+INFO 2024-04-19 17:49:31,182 autoreload 18816 1468 Watching for file changes with StatReloader
+INFO 2024-04-19 17:49:42,217 autoreload 18816 1468 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\forms.py changed, reloading.
+INFO 2024-04-19 17:49:42,859 autoreload 5384 16276 Watching for file changes with StatReloader
+INFO 2024-04-19 18:10:51,902 autoreload 13600 2052 Watching for file changes with StatReloader
+INFO 2024-04-19 18:10:54,778 basehttp 13600 1732 "POST /prefix/forms/ HTTP/1.1" 200 2297
+INFO 2024-04-19 18:12:29,798 views 13600 1732 Получили form.cleaned_data={'name': 'Анна', 'email': 'anna_kniazeva@bk.ru', 'age': 29, 'height': 158.1, 'is_active': True, 'birthdate': datetime.date(1994, 9, 10), 'gender': 'F', 'message': 'Какой-нибудь текст. Господи, как я устала учиться и нервничать. Я просто хочу, чтобы все стало хорошо, денег стало много, а жизнь была счастливой и беззаботной :((('}.
+INFO 2024-04-19 18:12:29,808 basehttp 13600 1732 "POST /prefix/forms/ HTTP/1.1" 200 2510
+INFO 2024-04-19 18:14:23,984 autoreload 11520 16264 Watching for file changes with StatReloader
+INFO 2024-04-19 18:14:29,602 views 11520 19272 Получили form.cleaned_data={'name': 'Анна', 'email': 'anna_kniazeva@bk.ru', 'age': 29, 'height': 158.1, 'is_active': True, 'birthdate': datetime.date(1994, 9, 10), 'gender': 'F', 'message': 'Какой-нибудь текст. Господи, как я устала учиться и нервничать. Я просто хочу, чтобы все стало хорошо, денег стало много, а жизнь была счастливой и беззаботной :((('}.
+INFO 2024-04-19 18:14:29,622 basehttp 11520 19272 "POST /prefix/forms/ HTTP/1.1" 200 2510
+INFO 2024-04-19 18:15:21,862 autoreload 11520 16264 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\forms.py changed, reloading.
+INFO 2024-04-19 18:15:22,542 autoreload 15620 4644 Watching for file changes with StatReloader
+INFO 2024-04-19 18:51:48,530 autoreload 15620 4644 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\forms.py changed, reloading.
+INFO 2024-04-19 18:51:49,966 autoreload 11436 19140 Watching for file changes with StatReloader
+INFO 2024-04-19 18:52:15,868 autoreload 11436 19140 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\forms.py changed, reloading.
+INFO 2024-04-19 18:52:16,493 autoreload 9844 1532 Watching for file changes with StatReloader
+INFO 2024-04-19 18:53:01,191 autoreload 9844 1532 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\forms.py changed, reloading.
+INFO 2024-04-19 18:53:02,041 autoreload 2824 15396 Watching for file changes with StatReloader
+INFO 2024-04-19 18:54:30,197 autoreload 2824 15396 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\models.py changed, reloading.
+INFO 2024-04-19 18:54:30,902 autoreload 5716 2900 Watching for file changes with StatReloader
+INFO 2024-04-19 18:54:46,154 autoreload 5716 2900 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\models.py changed, reloading.
+INFO 2024-04-19 19:05:54,387 autoreload 7716 10184 Watching for file changes with StatReloader
+INFO 2024-04-19 19:06:07,387 basehttp 7716 3900 "GET /prefix/user HTTP/1.1" 301 0
+INFO 2024-04-19 19:06:07,407 basehttp 7716 17004 "GET /prefix/user/ HTTP/1.1" 200 863
+INFO 2024-04-19 19:07:20,551 basehttp 7716 17004 "POST /prefix/user/ HTTP/1.1" 200 1150
+INFO 2024-04-19 19:07:56,482 views 7716 17004 Получилиname='Анна', email='mail@corp.mail.ru', age=29.
+INFO 2024-04-19 19:07:56,494 basehttp 7716 17004 "POST /prefix/user/ HTTP/1.1" 200 929
+INFO 2024-04-19 19:08:45,246 autoreload 7716 10184 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\views.py changed, reloading.
+INFO 2024-04-19 19:08:45,948 autoreload 16616 2968 Watching for file changes with StatReloader
+INFO 2024-04-19 19:10:05,931 autoreload 16616 2968 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\forms.py changed, reloading.
+INFO 2024-04-19 19:10:06,746 autoreload 17428 8240 Watching for file changes with StatReloader
+INFO 2024-04-19 19:10:16,594 autoreload 17428 8240 C:\Users\User\PycharmProjects\Django_GB\mydjango\myapp\forms.py changed, reloading.
+INFO 2024-04-19 19:10:17,314 autoreload 8832 12512 Watching for file changes with StatReloader
+INFO 2024-04-19 19:24:05,455 autoreload 2556 5516 Watching for file changes with StatReloader
+INFO 2024-04-19 19:24:15,623 basehttp 2556 13492 "GET /prefix/upload HTTP/1.1" 301 0
+INFO 2024-04-19 19:24:15,633 basehttp 2556 6740 "GET /prefix/upload/ HTTP/1.1" 200 635
+INFO 2024-04-19 19:25:31,490 basehttp 2556 6740 "POST /prefix/upload/ HTTP/1.1" 200 635
