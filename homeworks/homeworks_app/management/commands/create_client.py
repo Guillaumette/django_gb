@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from django.core.management.base import BaseCommand
-from homeworks_app.models import Client
+from homeworks_app.models import Clients
 
 
 class Command(BaseCommand):
@@ -9,7 +9,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         for i in range(10):
-            client = Client(
+            client = Clients(
                 name=f'Клиент#{i}',
                 email=f'client{i}@mail.ru',
                 phone=f'+7(999)000-00-{i:02}',

@@ -7,7 +7,7 @@ from django.utils import timezone
 from datetime import timedelta
 
 from .forms import ImageForm
-from .models import Client, Product, Order
+from .models import Clients, Products, Orders
 
 
 logger = logging.getLogger(__name__)
@@ -66,7 +66,7 @@ def about(request):
 
 
 def client_ordered_products(request, client_id):
-    client = Client.objects.get(pk=client_id)
+    client = Clients.objects.get(pk=client_id)
 
     today = timezone.now().date()
     last_week = today - timedelta(days=7)

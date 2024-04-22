@@ -304,3 +304,39 @@ INFO 2024-04-19 19:35:04,521 views 13916 5940 Index page of first homework acces
 INFO 2024-04-19 19:35:04,522 basehttp 13916 5940 "GET /index/ HTTP/1.1" 200 506
 INFO 2024-04-19 19:35:06,935 basehttp 13916 5940 "GET /index/upload HTTP/1.1" 301 0
 INFO 2024-04-19 19:35:06,951 basehttp 13916 10884 "GET /index/upload/ HTTP/1.1" 200 635
+INFO 2024-04-22 14:44:20,135 autoreload 6776 12308 Watching for file changes with StatReloader
+INFO 2024-04-22 14:44:21,973 views 6776 11600 Index page of first homework accessed
+INFO 2024-04-22 14:44:21,974 basehttp 6776 11600 "GET / HTTP/1.1" 200 506
+INFO 2024-04-22 14:44:27,788 basehttp 6776 11600 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-22 14:44:27,828 basehttp 6776 11600 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-04-22 14:45:32,618 autoreload 13308 17868 Watching for file changes with StatReloader
+INFO 2024-04-22 14:45:37,402 basehttp 13308 14320 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-22 14:45:37,436 basehttp 13308 14320 "GET /admin/ HTTP/1.1" 200 7598
+INFO 2024-04-22 14:45:43,610 basehttp 13308 14320 "GET /admin/homeworks_app/orders/ HTTP/1.1" 200 9399
+INFO 2024-04-22 14:45:43,648 basehttp 13308 14320 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:45:45,113 basehttp 13308 14320 "GET /admin/homeworks_app/category/ HTTP/1.1" 200 8506
+INFO 2024-04-22 14:45:45,146 basehttp 13308 14320 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:45:46,149 basehttp 13308 14320 "GET /admin/homeworks_app/clients/ HTTP/1.1" 200 8478
+INFO 2024-04-22 14:45:46,173 basehttp 13308 14320 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:45:47,087 basehttp 13308 14320 "GET /admin/homeworks_app/products/ HTTP/1.1" 200 8934
+INFO 2024-04-22 14:45:47,118 basehttp 13308 14320 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:53:11,661 autoreload 13656 4004 Watching for file changes with StatReloader
+INFO 2024-04-22 14:53:14,446 basehttp 13656 18708 "GET /admin/homeworks_app/products/ HTTP/1.1" 200 15631
+INFO 2024-04-22 14:53:14,446 basehttp 13656 12200 - Broken pipe from ('127.0.0.1', 2208)
+INFO 2024-04-22 14:53:14,487 basehttp 13656 18708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:53:17,588 basehttp 13656 18708 "GET /admin/homeworks_app/orders/ HTTP/1.1" 200 14842
+INFO 2024-04-22 14:53:17,612 basehttp 13656 18708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:53:19,794 basehttp 13656 18708 "GET /admin/homeworks_app/category/ HTTP/1.1" 200 8506
+INFO 2024-04-22 14:53:19,824 basehttp 13656 18708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:53:21,149 basehttp 13656 18708 "GET /admin/homeworks_app/orders/ HTTP/1.1" 200 14842
+INFO 2024-04-22 14:53:21,178 basehttp 13656 18708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:53:22,054 basehttp 13656 18708 "GET /admin/homeworks_app/orders/7/change/ HTTP/1.1" 200 16305
+INFO 2024-04-22 14:53:22,090 basehttp 13656 18708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:53:26,537 basehttp 13656 18708 "GET /admin/homeworks_app/category/ HTTP/1.1" 200 8506
+INFO 2024-04-22 14:53:26,560 basehttp 13656 18708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:53:27,820 basehttp 13656 18708 "GET /admin/homeworks_app/clients/ HTTP/1.1" 200 14396
+INFO 2024-04-22 14:53:27,857 basehttp 13656 18708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:53:29,800 basehttp 13656 18708 "GET /admin/homeworks_app/products/ HTTP/1.1" 200 15631
+INFO 2024-04-22 14:53:29,831 basehttp 13656 18708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-22 14:53:31,561 basehttp 13656 18708 "GET /admin/homeworks_app/products/1/change/ HTTP/1.1" 200 13894
+INFO 2024-04-22 14:53:31,585 basehttp 13656 18708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
