@@ -84,6 +84,10 @@ class Products(models.Model):
         return f'Product: {self.name}, price: {self.price}, '\
                'quantity: {self.quantity}, arrived: {self.arrived_date}'
 
+    @property
+    def total_quantity(self):
+        return sum(product.quantity for product in Products.objects.all())
+
 
 class Orders(models.Model):
     client = models.ForeignKey(

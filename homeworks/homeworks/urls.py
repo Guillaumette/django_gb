@@ -21,5 +21,6 @@ from homeworks_app.views import index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', include('homeworks_app.urls')),
-    path('', index)
+    path('', index),
+    # path('__debug__/', include("debug_toolbar.urls")),
 ]

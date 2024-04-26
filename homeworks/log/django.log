@@ -340,3 +340,241 @@ INFO 2024-04-22 14:53:29,800 basehttp 13656 18708 "GET /admin/homeworks_app/prod
 INFO 2024-04-22 14:53:29,831 basehttp 13656 18708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 INFO 2024-04-22 14:53:31,561 basehttp 13656 18708 "GET /admin/homeworks_app/products/1/change/ HTTP/1.1" 200 13894
 INFO 2024-04-22 14:53:31,585 basehttp 13656 18708 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-26 11:23:21,795 autoreload 2384 5524 Watching for file changes with StatReloader
+INFO 2024-04-26 11:26:00,652 autoreload 17492 5460 Watching for file changes with StatReloader
+INFO 2024-04-26 11:26:59,069 autoreload 4516 4508 Watching for file changes with StatReloader
+INFO 2024-04-26 11:27:11,156 views 4516 5468 Index page of first homework accessed
+INFO 2024-04-26 11:27:11,246 basehttp 4516 5468 "GET / HTTP/1.1" 200 9480
+INFO 2024-04-26 11:27:11,281 basehttp 4516 5468 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-04-26 11:27:11,291 basehttp 4516 5392 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+INFO 2024-04-26 11:27:11,349 basehttp 4516 5392 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-04-26 11:27:11,377 basehttp 4516 5392 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2024-04-26 11:27:11,518 log 4516 5392 Not Found: /favicon.ico
+WARNING 2024-04-26 11:27:11,520 basehttp 4516 5392 "GET /favicon.ico HTTP/1.1" 404 11424
+INFO 2024-04-26 11:27:40,816 basehttp 4516 5392 "GET /__debug__/render_panel/?store_id=d0a6c240bd2a4723a169711d3d712573&panel_id=SettingsPanel HTTP/1.1" 200 26648
+INFO 2024-04-26 11:27:57,994 basehttp 4516 5392 "GET /__debug__/render_panel/?store_id=d0a6c240bd2a4723a169711d3d712573&panel_id=HistoryPanel HTTP/1.1" 200 3848
+INFO 2024-04-26 11:27:58,006 basehttp 4516 5392 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-04-26 11:28:20,986 basehttp 4516 5392 "GET /__debug__/render_panel/?store_id=d0a6c240bd2a4723a169711d3d712573&panel_id=VersionsPanel HTTP/1.1" 200 621
+INFO 2024-04-26 11:29:08,020 basehttp 4516 5392 "GET /__debug__/render_panel/?store_id=d0a6c240bd2a4723a169711d3d712573&panel_id=HeadersPanel HTTP/1.1" 200 4189
+INFO 2024-04-26 11:29:59,233 basehttp 4516 5392 "GET /__debug__/render_panel/?store_id=d0a6c240bd2a4723a169711d3d712573&panel_id=RequestPanel HTTP/1.1" 200 1850
+INFO 2024-04-26 11:30:47,620 basehttp 4516 5392 "GET /__debug__/render_panel/?store_id=d0a6c240bd2a4723a169711d3d712573&panel_id=SQLPanel HTTP/1.1" 200 115
+INFO 2024-04-26 11:31:31,535 basehttp 4516 5392 "GET /__debug__/render_panel/?store_id=d0a6c240bd2a4723a169711d3d712573&panel_id=StaticFilesPanel HTTP/1.1" 200 33549
+INFO 2024-04-26 11:31:51,555 basehttp 4516 5392 "GET /__debug__/render_panel/?store_id=d0a6c240bd2a4723a169711d3d712573&panel_id=TemplatesPanel HTTP/1.1" 200 167
+INFO 2024-04-26 11:33:09,068 autoreload 15860 6892 Watching for file changes with StatReloader
+INFO 2024-04-26 11:33:37,578 basehttp 15860 6640 "GET /__debug__/render_panel/?store_id=d0a6c240bd2a4723a169711d3d712573&panel_id=CachePanel HTTP/1.1" 200 120
+INFO 2024-04-26 11:34:40,431 basehttp 15860 6640 "GET /__debug__/render_panel/?store_id=d0a6c240bd2a4723a169711d3d712573&panel_id=SignalsPanel HTTP/1.1" 200 120
+INFO 2024-04-26 11:35:55,229 basehttp 15860 6640 "GET /index/client/1/ordered_products HTTP/1.1" 200 10023
+INFO 2024-04-26 11:35:55,253 basehttp 15860 9560 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-26 11:35:55,253 basehttp 15860 5172 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-26 11:35:55,253 basehttp 15860 5160 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO 2024-04-26 11:35:55,295 basehttp 15860 5160 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-26 11:35:55,321 basehttp 15860 5160 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+ERROR 2024-04-26 11:36:06,732 log 15860 5160 Internal Server Error: /index/client/1/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 76, in client_ordered_products
+    orders_last_week = client.order_set.filter(order_date__gte=last_week, order_date__lte=today)
+                       ^^^^^^^^^^^^^^^^
+AttributeError: 'Clients' object has no attribute 'order_set'. Did you mean: 'orders_set'?
+ERROR 2024-04-26 11:36:06,782 basehttp 15860 5160 "GET /index/client/1/ordered_products/ HTTP/1.1" 500 76758
+ERROR 2024-04-26 11:36:23,001 log 15860 5160 Internal Server Error: /index/client/2/ordered_products/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks_app\views.py", line 76, in client_ordered_products
+    orders_last_week = client.order_set.filter(order_date__gte=last_week, order_date__lte=today)
+                       ^^^^^^^^^^^^^^^^
+AttributeError: 'Clients' object has no attribute 'order_set'. Did you mean: 'orders_set'?
+ERROR 2024-04-26 11:36:23,055 basehttp 15860 5160 "GET /index/client/2/ordered_products/ HTTP/1.1" 500 76758
+INFO 2024-04-26 11:41:42,532 autoreload 13764 14876 Watching for file changes with StatReloader
+INFO 2024-04-26 11:41:48,075 basehttp 13764 2716 "GET /index/client/2/ordered_products/ HTTP/1.1" 200 11399
+INFO 2024-04-26 11:41:48,096 basehttp 13764 13116 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-26 11:41:48,096 basehttp 13764 2716 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-26 11:41:48,109 basehttp 13764 2716 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-26 11:41:48,133 basehttp 13764 2716 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-04-26 11:41:59,009 basehttp 13764 2716 "GET /__debug__/render_panel/?store_id=a7e4cd1a252747e6babf121e36d95f75&panel_id=ProfilingPanel HTTP/1.1" 200 52518
+INFO 2024-04-26 11:58:09,181 autoreload 9904 11868 Watching for file changes with StatReloader
+INFO 2024-04-26 11:58:11,863 basehttp 9904 4920 "GET /admin HTTP/1.1" 200 9945
+INFO 2024-04-26 11:58:12,304 basehttp 9904 4960 "GET /admin HTTP/1.1" 200 9945
+INFO 2024-04-26 11:58:12,344 basehttp 9904 13092 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 304 0
+INFO 2024-04-26 11:58:12,353 basehttp 9904 1964 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-26 11:58:12,357 basehttp 9904 7388 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-26 11:58:12,413 basehttp 9904 7388 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-26 11:58:12,452 basehttp 9904 7388 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-04-26 11:58:14,717 basehttp 9904 7388 "GET /admin/ HTTP/1.1" 200 17015
+INFO 2024-04-26 11:58:14,760 basehttp 9904 7388 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-26 11:58:14,766 basehttp 9904 13092 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-26 11:58:14,768 basehttp 9904 1964 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-26 11:58:14,769 basehttp 9904 5572 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-26 11:58:14,769 basehttp 9904 12892 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-26 11:58:14,769 basehttp 9904 7388 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-26 11:58:14,769 basehttp 9904 6076 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-26 11:58:14,799 basehttp 9904 12892 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-26 11:58:14,800 basehttp 9904 6076 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-26 11:58:18,735 basehttp 9904 6076 "GET /admin/homeworks_app/category/ HTTP/1.1" 200 17967
+INFO 2024-04-26 11:58:18,787 basehttp 9904 6076 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-04-26 11:58:18,798 basehttp 9904 1964 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-04-26 11:58:18,799 basehttp 9904 5572 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-26 11:58:18,800 basehttp 9904 13092 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-04-26 11:58:18,810 basehttp 9904 6076 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-04-26 11:58:18,833 basehttp 9904 5572 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-26 11:58:18,842 basehttp 9904 13092 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-26 11:58:18,880 basehttp 9904 7388 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-04-26 11:58:18,946 basehttp 9904 1964 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-04-26 11:58:18,965 basehttp 9904 1964 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-26 11:58:18,974 basehttp 9904 12892 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-26 11:58:19,012 basehttp 9904 12892 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-26 11:58:24,872 basehttp 9904 12892 "GET /admin/homeworks_app/category/add/ HTTP/1.1" 200 18758
+INFO 2024-04-26 11:58:24,911 basehttp 9904 1964 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-04-26 11:58:24,914 basehttp 9904 12892 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-04-26 11:58:24,924 basehttp 9904 12892 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-04-26 11:58:24,984 basehttp 9904 1964 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-04-26 11:58:25,006 basehttp 9904 7388 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2024-04-26 11:58:39,518 log 9904 7388 Internal Server Error: /admin/homeworks_app/category/add/
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\contrib\admin\options.py", line 1945, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\contrib\admin\options.py", line 1803, in changeform_view
+    with transaction.atomic(using=router.db_for_write(self.model)):
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
+    connection.commit()
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\db\backends\base\base.py", line 323, in commit
+    self._commit()
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\db\backends\base\base.py", line 298, in _commit
+    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\User\PycharmProjects\Django_GB\venv\Lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
+    return self.connection.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-26 11:58:39,598 basehttp 9904 7388 "POST /admin/homeworks_app/category/add/ HTTP/1.1" 500 152002
+INFO 2024-04-26 11:59:01,591 basehttp 9904 7388 "GET /admin/homeworks_app/category/add/ HTTP/1.1" 200 19047
+INFO 2024-04-26 11:59:01,744 basehttp 9904 7388 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-26 11:59:01,776 basehttp 9904 7388 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-04-26 11:59:06,362 basehttp 9904 7388 "POST /admin/homeworks_app/category/add/ HTTP/1.1" 200 9994
+INFO 2024-04-26 11:59:08,204 basehttp 9904 1964 "GET /admin/homeworks_app/category/add/ HTTP/1.1" 200 19046
+INFO 2024-04-26 11:59:08,281 basehttp 9904 1964 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-26 11:59:15,737 basehttp 9904 1964 "POST /admin/homeworks_app/category/add/ HTTP/1.1" 200 9994
+INFO 2024-04-26 11:59:17,645 basehttp 9904 12892 "GET /admin/homeworks_app/category/add/ HTTP/1.1" 200 19046
+INFO 2024-04-26 11:59:17,744 basehttp 9904 12892 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-26 11:59:21,350 basehttp 9904 12892 "POST /admin/homeworks_app/category/add/ HTTP/1.1" 200 9994
+INFO 2024-04-26 11:59:22,644 basehttp 9904 13092 "GET /admin/homeworks_app/category/add/ HTTP/1.1" 200 19046
+INFO 2024-04-26 11:59:22,727 basehttp 9904 13092 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-26 11:59:26,002 basehttp 9904 13092 "POST /admin/homeworks_app/category/add/ HTTP/1.1" 200 9994
+INFO 2024-04-26 11:59:27,310 basehttp 9904 5572 "GET /admin/homeworks_app/category/add/ HTTP/1.1" 200 19046
+INFO 2024-04-26 11:59:27,384 basehttp 9904 5572 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-26 11:59:31,706 basehttp 9904 5572 "POST /admin/homeworks_app/category/add/ HTTP/1.1" 200 9994
+INFO 2024-04-26 11:59:32,806 basehttp 9904 6076 "GET /admin/homeworks_app/category/add/ HTTP/1.1" 200 19046
+INFO 2024-04-26 11:59:32,900 basehttp 9904 6076 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-26 11:59:36,142 basehttp 9904 6076 "POST /admin/homeworks_app/category/add/ HTTP/1.1" 200 9994
+INFO 2024-04-26 11:59:37,126 basehttp 9904 2432 "GET /admin/homeworks_app/category/add/ HTTP/1.1" 200 19046
+INFO 2024-04-26 11:59:37,198 basehttp 9904 2432 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-26 11:59:40,274 basehttp 9904 2432 "POST /admin/homeworks_app/category/add/ HTTP/1.1" 200 9994
+INFO 2024-04-26 11:59:41,287 basehttp 9904 3488 "GET /admin/homeworks_app/category/add/ HTTP/1.1" 200 19046
+INFO 2024-04-26 11:59:41,369 basehttp 9904 3488 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-26 11:59:44,508 basehttp 9904 3488 "POST /admin/homeworks_app/category/add/ HTTP/1.1" 200 9994
+INFO 2024-04-26 11:59:45,499 basehttp 9904 7064 "GET /admin/homeworks_app/category/add/ HTTP/1.1" 200 19046
+INFO 2024-04-26 11:59:45,574 basehttp 9904 7064 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-26 11:59:49,285 basehttp 9904 7064 "POST /admin/homeworks_app/category/add/ HTTP/1.1" 200 9986
+INFO 2024-04-26 12:47:21,963 autoreload 1548 5472 Watching for file changes with StatReloader
+INFO 2024-04-26 12:47:25,247 views 1548 11924 Index page of first homework accessed
+INFO 2024-04-26 12:47:25,323 basehttp 1548 11924 "GET / HTTP/1.1" 200 9883
+INFO 2024-04-26 12:47:25,373 basehttp 1548 17240 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-04-26 12:47:25,374 basehttp 1548 11924 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-04-26 12:47:25,424 basehttp 1548 11924 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-04-26 12:47:25,455 basehttp 1548 11924 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-04-26 12:47:42,744 basehttp 1548 11924 "GET /index/db HTTP/1.1" 200 9954
+INFO 2024-04-26 12:47:42,793 basehttp 1548 17240 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 304 0
+INFO 2024-04-26 12:47:51,077 basehttp 1548 17240 "GET /index/db/ HTTP/1.1" 200 9851
+INFO 2024-04-26 12:51:31,486 views 1548 17240 Index page of first homework accessed
+INFO 2024-04-26 12:51:31,537 basehttp 1548 17240 "GET / HTTP/1.1" 200 9883
+INFO 2024-04-26 12:51:37,578 basehttp 1548 17240 "GET /index HTTP/1.1" 200 9945
+INFO 2024-04-26 12:51:39,179 basehttp 1548 9972 "GET /index/db HTTP/1.1" 200 9954
+INFO 2024-04-26 12:51:41,764 basehttp 1548 3176 "GET /index/db/ HTTP/1.1" 200 9850
+INFO 2024-04-26 12:51:44,559 basehttp 1548 3176 "GET /__debug__/render_panel/?store_id=6d393c0d66474a5d91182df67c4e88f7&panel_id=SQLPanel HTTP/1.1" 200 5168
+INFO 2024-04-26 12:51:51,361 basehttp 1548 3176 "GET /index/view/ HTTP/1.1" 200 9836
+INFO 2024-04-26 12:51:59,395 basehttp 1548 3176 "GET /__debug__/render_panel/?store_id=c904b18793424172b0bc451de231ff2b&panel_id=SQLPanel HTTP/1.1" 200 6522
+INFO 2024-04-26 12:52:33,245 basehttp 1548 3176 "GET /__debug__/render_panel/?store_id=c904b18793424172b0bc451de231ff2b&panel_id=ProfilingPanel HTTP/1.1" 200 10298
+INFO 2024-04-26 12:53:09,534 basehttp 1548 3176 "GET /index/template/ HTTP/1.1" 200 9820
+INFO 2024-04-26 12:53:16,533 basehttp 1548 3176 "GET /__debug__/render_panel/?store_id=3b8645f3bb85425cb6de754028bba91e&panel_id=SQLPanel HTTP/1.1" 200 22258
+INFO 2024-04-26 12:53:27,305 basehttp 1548 3176 "GET /__debug__/render_panel/?store_id=3b8645f3bb85425cb6de754028bba91e&panel_id=TemplatesPanel HTTP/1.1" 200 6835
+INFO 2024-04-26 12:54:11,832 basehttp 1548 3176 "GET /__debug__/render_panel/?store_id=3b8645f3bb85425cb6de754028bba91e&panel_id=ProfilingPanel HTTP/1.1" 200 949
+INFO 2024-04-26 12:54:42,358 basehttp 1548 3176 "GET /__debug__/render_panel/?store_id=3b8645f3bb85425cb6de754028bba91e&panel_id=HistoryPanel HTTP/1.1" 200 14675
+INFO 2024-04-26 12:54:42,372 basehttp 1548 3176 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-04-26 13:02:14,428 autoreload 1548 5472 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:02:15,342 autoreload 15136 8212 Watching for file changes with StatReloader
+INFO 2024-04-26 13:03:06,445 autoreload 15136 8212 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:03:07,545 autoreload 11928 11508 Watching for file changes with StatReloader
+INFO 2024-04-26 13:03:14,603 autoreload 11928 11508 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:03:15,458 autoreload 11740 17332 Watching for file changes with StatReloader
+INFO 2024-04-26 13:03:58,158 autoreload 11740 17332 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:03:59,111 autoreload 9564 13544 Watching for file changes with StatReloader
+INFO 2024-04-26 13:04:14,937 autoreload 9564 13544 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:04:16,019 autoreload 14740 2660 Watching for file changes with StatReloader
+INFO 2024-04-26 13:04:21,350 autoreload 14740 2660 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:04:22,532 autoreload 9140 5472 Watching for file changes with StatReloader
+INFO 2024-04-26 13:04:48,200 autoreload 9140 5472 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:04:49,431 autoreload 12676 7064 Watching for file changes with StatReloader
+INFO 2024-04-26 13:05:10,423 autoreload 12676 7064 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:05:11,452 autoreload 1312 17652 Watching for file changes with StatReloader
+INFO 2024-04-26 13:05:41,250 autoreload 1312 17652 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:05:42,431 autoreload 2276 7632 Watching for file changes with StatReloader
+INFO 2024-04-26 13:07:05,535 autoreload 2276 7632 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:07:06,873 autoreload 16168 14068 Watching for file changes with StatReloader
+INFO 2024-04-26 13:07:27,921 autoreload 16168 14068 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:07:29,015 autoreload 1328 9316 Watching for file changes with StatReloader
+INFO 2024-04-26 13:08:31,393 autoreload 1328 9316 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.
+INFO 2024-04-26 13:08:32,261 autoreload 11940 16260 Watching for file changes with StatReloader
+INFO 2024-04-26 13:14:26,518 autoreload 11940 16260 C:\Users\User\PycharmProjects\Django_GB\homeworks\homeworks\settings.py changed, reloading.

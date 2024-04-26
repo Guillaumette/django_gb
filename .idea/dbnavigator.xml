@@ -27,12 +27,7 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="2105fa23-d52b-4018-87e0-762b2598498c" object-ref="schemas/main/tables/homeworks_app_order_products" />
-      <object connection-id="2105fa23-d52b-4018-87e0-762b2598498c" object-ref="schemas/main/tables/homeworks_app_order" />
-      <object connection-id="2105fa23-d52b-4018-87e0-762b2598498c" object-ref="schemas/main/tables/homeworks_app_product" />
-      <object connection-id="2105fa23-d52b-4018-87e0-762b2598498c" object-ref="schemas/main/tables/homeworks_app_client" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="3406a62b-8922-4a65-8fc6-1b7b798ea001" />
@@ -56,6 +51,8 @@
     <filter-actions connection-id="2105fa23-d52b-4018-87e0-762b2598498c" dataset="main.homeworks_app_order_products" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="2105fa23-d52b-4018-87e0-762b2598498c" dataset="main.homeworks_app_product" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="2105fa23-d52b-4018-87e0-762b2598498c" dataset="main.homeworks_app_client" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="2105fa23-d52b-4018-87e0-762b2598498c" dataset="main.homeworks_app_products" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="2105fa23-d52b-4018-87e0-762b2598498c" dataset="main.homeworks_app_category" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
